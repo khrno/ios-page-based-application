@@ -65,7 +65,7 @@
     
     NSUInteger index = ((PageContentViewController *) viewController).pageIndex;
     
-    
+    NSLog(@"%lu", index);
     
     if(index == NSNotFound)
     {

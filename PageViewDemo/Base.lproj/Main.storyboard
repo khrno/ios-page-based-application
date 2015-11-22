@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -60,30 +59,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZf-ZB-x4e">
-                                <rect key="frame" x="279" y="28" width="42" height="21"/>
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZFj-Kx-gVy">
-                                <rect key="frame" x="52" y="57" width="497" height="543"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="ZFj-Kx-gVy" secondAttribute="trailing" id="0k8-1t-gEs"/>
-                            <constraint firstItem="ZFj-Kx-gVy" firstAttribute="leading" secondItem="rmD-d5-zwl" secondAttribute="leadingMargin" id="2K4-xM-Jk5"/>
-                            <constraint firstItem="sZf-ZB-x4e" firstAttribute="top" secondItem="evC-th-Vqu" secondAttribute="bottom" constant="8" id="8mr-hr-DgV"/>
-                            <constraint firstItem="ouy-qJ-ycw" firstAttribute="top" secondItem="ZFj-Kx-gVy" secondAttribute="bottom" id="9JS-nB-3hU"/>
-                            <constraint firstItem="ZFj-Kx-gVy" firstAttribute="top" secondItem="sZf-ZB-x4e" secondAttribute="bottom" id="ANj-UQ-Ag9"/>
-                            <constraint firstItem="sZf-ZB-x4e" firstAttribute="centerX" secondItem="rmD-d5-zwl" secondAttribute="centerX" id="Agf-jI-w5Y"/>
+                            <constraint firstItem="sZf-ZB-x4e" firstAttribute="centerX" secondItem="rmD-d5-zwl" secondAttribute="centerX" id="OPx-Kk-6a5"/>
+                            <constraint firstItem="sZf-ZB-x4e" firstAttribute="centerY" secondItem="rmD-d5-zwl" secondAttribute="centerY" id="d3U-rS-Rsa"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backgroundImageView" destination="ZFj-Kx-gVy" id="shl-Rw-fBm"/>
                         <outlet property="titleLabel" destination="sZf-ZB-x4e" id="sHO-mR-t0W"/>
                     </connections>
                 </viewController>

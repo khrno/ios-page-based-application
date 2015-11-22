@@ -16,8 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.backgroundImageView.image = [UIImage imageNamed:self.imageFile];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:self.imageFile]];
+//    self.backgroundImageView.image = [UIImage imageNamed:self.imageFile];
     self.titleLabel.text =self.titleText;
 }
 
